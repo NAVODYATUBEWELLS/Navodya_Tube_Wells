@@ -1,0 +1,2 @@
+const menu=document.querySelector('.menu-btn');const nav=document.querySelector('.nav');if(menu){menu.addEventListener('click',()=>nav.classList.toggle('open'));}
+const form=document.getElementById('quoteForm');if(form){form.addEventListener('submit',e=>{e.preventDefault();const msg=document.getElementById('formMsg');msg.textContent='Thanks! Your request is ready. Connect this form to your email/WhatsApp backend to receive submissions.';form.reset();});}
